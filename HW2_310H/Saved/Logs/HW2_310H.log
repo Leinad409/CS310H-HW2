@@ -838,3 +838,299 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2026.11.06-08.35.11:565][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
 [2026.11.06-08.35.11:616][203]LogPlayLevel: Display: Destroying online subsystem :Context_1
 [2026.11.06-08.36.10:946][260]LogDerivedDataCache: C:/Users/Daniel Cohen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.398 and deleted 0 file(s) with total size 0 MiB.
+[2026.11.06-08.37.09:705][506]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.11.06-08.37.09:711][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.06-08.37.09:711][506]PIE: New page: PIE session: LV_MainMenu (Nov 5, 2026, 6:37:09 PM)
+[2026.11.06-08.37.09:711][506]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LV_MainMenu
+[2026.11.06-08.37.09:713][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001479s)
+[2026.11.06-08.37.09:713][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LV_MainMenu.LV_MainMenu to /Game/Levels/UEDPIE_0_LV_MainMenu.LV_MainMenu (0.001537s)
+[2026.11.06-08.37.09:713][506]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2026.11.06-08.37.09:713][506]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.11.06-08.37.09:713][506]LogAIModule: Creating AISystem for world LV_MainMenu
+[2026.11.06-08.37.09:714][506]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2026.11.06-08.37.09:718][506]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2026.11.06-08.37.09:719][506]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2026.11.06-08.37.09:719][506]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.06-08.37.09:719][506]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.06-08.37.09:719][506]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.06-08.37.09:719][506]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.06-08.37.09:719][506]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.11.06-08.37.09:719][506]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2026.11.06-08.37.09:719][506]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.11.06-08.37.09:719][506]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.06-08.37.09:719][506]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.06-08.37.09:719][506]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.06-08.37.09:719][506]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.06-08.37.09:721][506]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.06-08.37.09:743][506]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VIRTUOSO SE Wireless Gaming Headset)
+[2026.11.06-08.37.09:744][506]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.06-08.37.09:744][506]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.06-08.37.09:744][506]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.06-08.37.09:744][506]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2026.11.06-08.37.09:744][506]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=3
+[2026.11.06-08.37.09:746][506]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2026.11.06-08.37.09:746][506]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2026.11.06-08.37.09:746][506]LogInit: FAudioDevice initialized.
+[2026.11.06-08.37.09:746][506]LogAudio: Display: Audio Device (ID: 3) registered with world 'LV_MainMenu'.
+[2026.11.06-08.37.09:759][506]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.06-08.37.09:760][506]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LV_MainMenu.LV_MainMenu up for play (max tick rate 0) at 2026.11.06-01.37.09
+[2026.11.06-08.37.09:760][506]LogWorld: Bringing up level for play took: 0.000467
+[2026.11.06-08.37.09:760][506]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2026.11.06-08.37.09:763][506]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.11.06-08.37.09:763][506]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2026.11.06-08.37.09:763][506]PIE: Server logged in
+[2026.11.06-08.37.09:764][506]PIE: Play in editor total start time 0.052 seconds.
+[2026.11.06-08.37.11:188][661]LogNet: Browse: /Game/Levels/LV_Level1
+[2026.11.06-08.37.11:188][661]LogLoad: LoadMap: /Game/Levels/LV_Level1
+[2026.11.06-08.37.11:188][661]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LV_MainMenu
+[2026.11.06-08.37.11:189][661]LogWorld: UWorld::CleanupWorld for LV_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2026.11.06-08.37.11:189][661]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.06-08.37.11:227][661]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.11.06-08.37.11:228][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2026.11.06-08.37.11:237][661]LogAudio: Display: Audio Device (ID: 3) registered with world 'LV_Level1'.
+[2026.11.06-08.37.11:237][661]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2026.11.06-08.37.11:237][661]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.11.06-08.37.11:237][661]LogAIModule: Creating AISystem for world LV_Level1
+[2026.11.06-08.37.11:237][661]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2026.11.06-08.37.11:237][661]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.06-08.37.11:241][661]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LV_Level1.LV_Level1 up for play (max tick rate 0) at 2026.11.06-01.37.11
+[2026.11.06-08.37.11:241][661]LogWorld: Bringing up level for play took: 0.004024
+[2026.11.06-08.37.11:243][661]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.11.06-08.37.11:243][661]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.11.06-08.37.11:243][661]LogLoad: Took 0.055033 seconds to LoadMap(/Game/Levels/LV_Level1)
+[2026.11.06-08.37.22:023][954]LogNet: Browse: /Game/Levels/LV_Level1
+[2026.11.06-08.37.22:023][954]LogLoad: LoadMap: /Game/Levels/LV_Level1
+[2026.11.06-08.37.22:023][954]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LV_Level1
+[2026.11.06-08.37.22:024][954]LogWorld: UWorld::CleanupWorld for LV_Level1, bSessionEnded=true, bCleanupResources=true
+[2026.11.06-08.37.22:024][954]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.06-08.37.22:058][954]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.11.06-08.37.22:060][954]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2026.11.06-08.37.22:069][954]LogAudio: Display: Audio Device (ID: 3) registered with world 'LV_Level1'.
+[2026.11.06-08.37.22:069][954]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2026.11.06-08.37.22:069][954]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.11.06-08.37.22:070][954]LogAIModule: Creating AISystem for world LV_Level1
+[2026.11.06-08.37.22:070][954]LogPlayLevel: PIE: World Init took: (0.000529s)
+[2026.11.06-08.37.22:070][954]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.06-08.37.22:073][954]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LV_Level1.LV_Level1 up for play (max tick rate 0) at 2026.11.06-01.37.22
+[2026.11.06-08.37.22:073][954]LogWorld: Bringing up level for play took: 0.003096
+[2026.11.06-08.37.22:075][954]LogLoad: Took 0.051155 seconds to LoadMap(/Game/Levels/LV_Level1)
+[2026.11.06-08.37.27:133][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.06-08.37.27:133][556]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LV_Level1
+[2026.11.06-08.37.27:134][556]LogWorld: UWorld::CleanupWorld for LV_Level1, bSessionEnded=true, bCleanupResources=true
+[2026.11.06-08.37.27:134][556]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.06-08.37.27:142][556]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.06-08.37.27:143][556]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.06-08.37.27:148][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.06-08.37.27:148][556]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2026.11.06-08.37.27:149][556]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2026.11.06-08.37.27:153][556]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2026.11.06-08.37.27:204][559]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2026.11.06-08.41.22:124][410]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2026.11.06-08.41.22:132][410]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2026.11.06-08.41.22:132][410]LogSynthBenchmark: Display: ===============
+[2026.11.06-08.41.22:132][410]LogSynthBenchmark: Display: Main Processor:
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display:          ... 0.011531 s/Run 'RayIntersect'
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display:          ... 0.009605 s/Run 'Fractal'
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display: 
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 32
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display:   NumberOfCores (physical): 12
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display:   NumberOfCores (logical): 24
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display:   CPU Perf Index 0: 222.1 (weight 1.00)
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display:   CPU Perf Index 1: 297.8 (weight 1.50)
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display:  
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display: Graphics:
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display:   Adapter Name: 'NVIDIA GeForce RTX 3060'
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display:   Vendor Id: 0x10DE
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display:   Device Id: 0x2504
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display:   Device Revision: 0xA1
+[2026.11.06-08.41.22:154][410]LogSynthBenchmark: Display:   GPU Memory: 12113/0/15925 MB
+[2026.11.06-08.41.22:707][410]LogSynthBenchmark: Display:   GPU first test: 0.00s
+[2026.11.06-08.41.22:707][410]LogSynthBenchmark: Display:          ... 8.605 s/GigaPix, Confidence=70% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2026.11.06-08.41.22:707][410]LogSynthBenchmark: Display:          ... 6.657 s/GigaPix, Confidence=60% 'TexHeavy' (likely to be very inaccurate)
+[2026.11.06-08.41.22:707][410]LogSynthBenchmark: Display:          ... 4.949 s/GigaPix, Confidence=89% 'DepTexHeavy' (likely to be very inaccurate)
+[2026.11.06-08.41.22:707][410]LogSynthBenchmark: Display:          ... 7.490 s/GigaPix, Confidence=51% 'FillOnly' (likely to be very inaccurate)
+[2026.11.06-08.41.22:707][410]LogSynthBenchmark: Display:          ... 0.818 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2026.11.06-08.41.22:707][410]LogSynthBenchmark: Display:          ... 29.763 s/GigaVert, Confidence=70% 'VertThroughPut1' (likely to be very inaccurate)
+[2026.11.06-08.41.22:707][410]LogSynthBenchmark: Display:          ... 31.527 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2026.11.06-08.41.23:278][410]LogSynthBenchmark: Display:   GPU second test: 0.01s
+[2026.11.06-08.41.23:278][410]LogSynthBenchmark: Display:          ... 16.892 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2026.11.06-08.41.23:278][410]LogSynthBenchmark: Display:          ... 20.517 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2026.11.06-08.41.23:278][410]LogSynthBenchmark: Display:          ... 17.257 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2026.11.06-08.41.23:278][410]LogSynthBenchmark: Display:          ... 40.600 s/GigaPix, Confidence=89% 'FillOnly' (likely to be inaccurate)
+[2026.11.06-08.41.23:278][410]LogSynthBenchmark: Display:          ... 1.122 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2026.11.06-08.41.23:278][410]LogSynthBenchmark: Display:          ... 12.439 s/GigaVert, Confidence=51% 'VertThroughPut1' (likely to be inaccurate)
+[2026.11.06-08.41.23:278][410]LogSynthBenchmark: Display:          ... 16.710 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:   GPU third test: 0.13s
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:          ... 22.068 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:          ... 25.636 s/GigaPix, Confidence=100% 'TexHeavy'
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:          ... 24.105 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:          ... 64.373 s/GigaPix, Confidence=100% 'FillOnly'
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:          ... 1.186 s/GigaPix, Confidence=100% 'Bandwidth'
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:          ... 4.635 s/GigaVert, Confidence=89% 'VertThroughPut1'
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:          ... 16.042 s/GigaVert, Confidence=89% 'VertThroughPut2'
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:   GPU Final Results:
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:          ... 22.068 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:          ... 25.636 s/GigaPix, Confidence=100% 'TexHeavy'
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:          ... 24.105 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:          ... 64.373 s/GigaPix, Confidence=100% 'FillOnly'
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:          ... 1.186 s/GigaPix, Confidence=100% 'Bandwidth'
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:          ... 4.635 s/GigaVert, Confidence=89% 'VertThroughPut1'
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:          ... 16.042 s/GigaVert, Confidence=89% 'VertThroughPut2'
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display: 
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:   GPU Perf Index 0: 479.6 (weight 1.00)
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:   GPU Perf Index 1: 344.2 (weight 0.10)
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:   GPU Perf Index 2: 626.6 (weight 0.10)
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:   GPU Perf Index 3: 252.8 (weight 3.00)
+[2026.11.06-08.41.23:969][410]LogSynthBenchmark: Display:   GPU Perf Index 4: 110.6 (weight 1.00)
+[2026.11.06-08.41.23:970][410]LogSynthBenchmark: Display:   GPU Perf Index 5: 301.6 (weight 0.00)
+[2026.11.06-08.41.23:970][410]LogSynthBenchmark: Display:   GPU Perf Index 6: 907.9 (weight 0.00)
+[2026.11.06-08.41.23:970][410]LogSynthBenchmark: Display:   GPUIndex: 278.0
+[2026.11.06-08.41.23:970][410]LogSynthBenchmark: Display:   CPUIndex: 267.5
+[2026.11.06-08.41.23:970][410]LogSynthBenchmark: Display: 
+[2026.11.06-08.41.23:970][410]LogSynthBenchmark: Display:          ... Total Time: 1.837314 sec
+[2026.11.06-08.41.24:861][517]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2026.11.06-08.41.24:861][517]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2026.11.06-08.41.24:861][517]LogSynthBenchmark: Display: ===============
+[2026.11.06-08.41.24:861][517]LogSynthBenchmark: Display: Main Processor:
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display:          ... 0.011468 s/Run 'RayIntersect'
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display:          ... 0.009577 s/Run 'Fractal'
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display: 
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 32
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display:   NumberOfCores (physical): 12
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display:   NumberOfCores (logical): 24
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display:   CPU Perf Index 0: 223.3 (weight 1.00)
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display:   CPU Perf Index 1: 298.6 (weight 1.50)
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display:  
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display: Graphics:
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display:   Adapter Name: 'NVIDIA GeForce RTX 3060'
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display:   Vendor Id: 0x10DE
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display:   Device Id: 0x2504
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display:   Device Revision: 0xA1
+[2026.11.06-08.41.24:882][517]LogSynthBenchmark: Display:   GPU Memory: 12113/0/15925 MB
+[2026.11.06-08.41.25:437][517]LogSynthBenchmark: Display:   GPU first test: 0.00s
+[2026.11.06-08.41.25:437][517]LogSynthBenchmark: Display:          ... 8.878 s/GigaPix, Confidence=70% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2026.11.06-08.41.25:437][517]LogSynthBenchmark: Display:          ... 7.209 s/GigaPix, Confidence=81% 'TexHeavy' (likely to be very inaccurate)
+[2026.11.06-08.41.25:437][517]LogSynthBenchmark: Display:          ... 5.463 s/GigaPix, Confidence=81% 'DepTexHeavy' (likely to be very inaccurate)
+[2026.11.06-08.41.25:437][517]LogSynthBenchmark: Display:          ... 8.139 s/GigaPix, Confidence=60% 'FillOnly' (likely to be very inaccurate)
+[2026.11.06-08.41.25:437][517]LogSynthBenchmark: Display:          ... 0.828 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2026.11.06-08.41.25:437][517]LogSynthBenchmark: Display:          ... 31.923 s/GigaVert, Confidence=89% 'VertThroughPut1' (likely to be very inaccurate)
+[2026.11.06-08.41.25:437][517]LogSynthBenchmark: Display:          ... 31.527 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2026.11.06-08.41.25:963][517]LogSynthBenchmark: Display:   GPU second test: 0.01s
+[2026.11.06-08.41.25:963][517]LogSynthBenchmark: Display:          ... 17.683 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2026.11.06-08.41.25:963][517]LogSynthBenchmark: Display:          ... 20.113 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2026.11.06-08.41.25:963][517]LogSynthBenchmark: Display:          ... 17.559 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2026.11.06-08.41.25:963][517]LogSynthBenchmark: Display:          ... 38.402 s/GigaPix, Confidence=89% 'FillOnly' (likely to be inaccurate)
+[2026.11.06-08.41.25:963][517]LogSynthBenchmark: Display:          ... 1.123 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2026.11.06-08.41.25:963][517]LogSynthBenchmark: Display:          ... 13.353 s/GigaVert, Confidence=60% 'VertThroughPut1' (likely to be inaccurate)
+[2026.11.06-08.41.25:963][517]LogSynthBenchmark: Display:          ... 16.712 s/GigaVert, Confidence=89% 'VertThroughPut2' (likely to be inaccurate)
+[2026.11.06-08.41.26:593][517]LogSynthBenchmark: Display:   GPU third test: 0.13s
+[2026.11.06-08.41.26:593][517]LogSynthBenchmark: Display:          ... 22.029 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:          ... 25.515 s/GigaPix, Confidence=100% 'TexHeavy'
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:          ... 24.125 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:          ... 62.883 s/GigaPix, Confidence=100% 'FillOnly'
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:          ... 1.187 s/GigaPix, Confidence=100% 'Bandwidth'
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:          ... 4.929 s/GigaVert, Confidence=89% 'VertThroughPut1'
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:          ... 16.050 s/GigaVert, Confidence=89% 'VertThroughPut2'
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:   GPU Final Results:
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:          ... 22.029 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:          ... 25.515 s/GigaPix, Confidence=100% 'TexHeavy'
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:          ... 24.125 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:          ... 62.883 s/GigaPix, Confidence=100% 'FillOnly'
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:          ... 1.187 s/GigaPix, Confidence=100% 'Bandwidth'
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:          ... 4.929 s/GigaVert, Confidence=89% 'VertThroughPut1'
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:          ... 16.050 s/GigaVert, Confidence=89% 'VertThroughPut2'
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display: 
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:   GPU Perf Index 0: 478.8 (weight 1.00)
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:   GPU Perf Index 1: 342.6 (weight 0.10)
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:   GPU Perf Index 2: 627.1 (weight 0.10)
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:   GPU Perf Index 3: 247.0 (weight 3.00)
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:   GPU Perf Index 4: 110.8 (weight 1.00)
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:   GPU Perf Index 5: 320.7 (weight 0.00)
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:   GPU Perf Index 6: 908.3 (weight 0.00)
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:   GPUIndex: 274.5
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:   CPUIndex: 268.5
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display: 
+[2026.11.06-08.41.26:594][517]LogSynthBenchmark: Display:          ... Total Time: 1.732767 sec
+[2026.11.06-08.41.41:874][335]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2026.11.06-08.41.41:874][335]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2026.11.06-08.41.41:874][335]LogSynthBenchmark: Display: ===============
+[2026.11.06-08.41.41:874][335]LogSynthBenchmark: Display: Main Processor:
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display:          ... 0.011684 s/Run 'RayIntersect'
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display:          ... 0.009573 s/Run 'Fractal'
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display: 
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 32
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display:   NumberOfCores (physical): 12
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display:   NumberOfCores (logical): 24
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display:   CPU Perf Index 0: 219.2 (weight 1.00)
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display:   CPU Perf Index 1: 298.8 (weight 1.50)
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display:  
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display: Graphics:
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display:   Adapter Name: 'NVIDIA GeForce RTX 3060'
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display:   Vendor Id: 0x10DE
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display:   Device Id: 0x2504
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display:   Device Revision: 0xA1
+[2026.11.06-08.41.41:895][335]LogSynthBenchmark: Display:   GPU Memory: 12113/0/15925 MB
+[2026.11.06-08.41.42:422][335]LogSynthBenchmark: Display:   GPU first test: 0.00s
+[2026.11.06-08.41.42:422][335]LogSynthBenchmark: Display:          ... 9.133 s/GigaPix, Confidence=70% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2026.11.06-08.41.42:422][335]LogSynthBenchmark: Display:          ... 7.724 s/GigaPix, Confidence=81% 'TexHeavy' (likely to be very inaccurate)
+[2026.11.06-08.41.42:422][335]LogSynthBenchmark: Display:          ... 5.384 s/GigaPix, Confidence=89% 'DepTexHeavy' (likely to be very inaccurate)
+[2026.11.06-08.41.42:422][335]LogSynthBenchmark: Display:          ... 8.722 s/GigaPix, Confidence=60% 'FillOnly' (likely to be very inaccurate)
+[2026.11.06-08.41.42:422][335]LogSynthBenchmark: Display:          ... 0.822 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2026.11.06-08.41.42:422][335]LogSynthBenchmark: Display:          ... 30.960 s/GigaVert, Confidence=89% 'VertThroughPut1' (likely to be very inaccurate)
+[2026.11.06-08.41.42:422][335]LogSynthBenchmark: Display:          ... 31.527 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2026.11.06-08.41.43:022][335]LogSynthBenchmark: Display:   GPU second test: 0.01s
+[2026.11.06-08.41.43:022][335]LogSynthBenchmark: Display:          ... 17.420 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2026.11.06-08.41.43:022][335]LogSynthBenchmark: Display:          ... 20.402 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2026.11.06-08.41.43:022][335]LogSynthBenchmark: Display:          ... 17.099 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2026.11.06-08.41.43:022][335]LogSynthBenchmark: Display:          ... 40.726 s/GigaPix, Confidence=89% 'FillOnly' (likely to be inaccurate)
+[2026.11.06-08.41.43:022][335]LogSynthBenchmark: Display:          ... 1.117 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2026.11.06-08.41.43:022][335]LogSynthBenchmark: Display:          ... 14.069 s/GigaVert, Confidence=60% 'VertThroughPut1' (likely to be inaccurate)
+[2026.11.06-08.41.43:022][335]LogSynthBenchmark: Display:          ... 16.638 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:   GPU third test: 0.14s
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:          ... 22.122 s/GigaPix, Confidence=89% 'ALUHeavyNoise'
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:          ... 25.422 s/GigaPix, Confidence=89% 'TexHeavy'
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:          ... 24.130 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:          ... 63.615 s/GigaPix, Confidence=89% 'FillOnly'
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:          ... 1.181 s/GigaPix, Confidence=100% 'Bandwidth'
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:          ... 4.372 s/GigaVert, Confidence=89% 'VertThroughPut1'
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:          ... 16.035 s/GigaVert, Confidence=81% 'VertThroughPut2'
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:   GPU Final Results:
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:          ... 22.122 s/GigaPix, Confidence=89% 'ALUHeavyNoise'
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:          ... 25.422 s/GigaPix, Confidence=89% 'TexHeavy'
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:          ... 24.130 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:          ... 63.615 s/GigaPix, Confidence=89% 'FillOnly'
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:          ... 1.181 s/GigaPix, Confidence=100% 'Bandwidth'
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:          ... 4.372 s/GigaVert, Confidence=89% 'VertThroughPut1'
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:          ... 16.035 s/GigaVert, Confidence=81% 'VertThroughPut2'
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display: 
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:   GPU Perf Index 0: 480.8 (weight 1.00)
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:   GPU Perf Index 1: 341.4 (weight 0.10)
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:   GPU Perf Index 2: 627.3 (weight 0.10)
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:   GPU Perf Index 3: 249.8 (weight 3.00)
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:   GPU Perf Index 4: 110.2 (weight 1.00)
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:   GPU Perf Index 5: 284.5 (weight 0.00)
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:   GPU Perf Index 6: 907.5 (weight 0.00)
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:   GPUIndex: 276.4
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:   CPUIndex: 266.9
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display: 
+[2026.11.06-08.41.43:708][335]LogSynthBenchmark: Display:          ... Total Time: 1.835236 sec
+[2026.11.06-08.43.33:454][158]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2026.11.06-08.43.33:542][158]LogUObjectGlobals: Warning: Failed to find object 'Class None.Physics'
+[2026.11.06-08.46.11:390][512]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.11.06-08.48.41:860][743]LogSlate: Window 'Project Settings' being destroyed
+[2026.11.06-08.48.41:866][743]LogSlate: Window 'Project Settings' being destroyed
